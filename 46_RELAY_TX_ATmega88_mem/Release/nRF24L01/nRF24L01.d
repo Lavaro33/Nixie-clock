@@ -1,8 +1,0 @@
-nRF24L01/nRF24L01.o: ../nRF24L01/nRF24L01.c ../nRF24L01/SPI.h \
- ../nRF24L01/nRF24L01.h ../nRF24L01/nRF24L01_memory_map.h
-
-../nRF24L01/SPI.h:
-
-../nRF24L01/nRF24L01.h:
-
-../nRF24L01/nRF24L01_memory_map.h:

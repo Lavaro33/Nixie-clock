@@ -1,0 +1,824 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+                              ./BMP180/bmp180.o (__mulsi3)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+                              ./I2C_TWI/i2c_twi.o (__udivmodhi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+                              ./BMP180/bmp180.o (__udivmodsi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+                              ./BMP180/bmp180.o (__divmodsi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                              ./TERM_VT100/term_vt100.o (__do_copy_data)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                              ./MKUART/mkuart.o (__do_clear_bss)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+                              ./main.o (__umulhisi3)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+                              ./BMP180/bmp180.o (__muluhisi3)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+                              ./BMP180/bmp180.o (__mulshisi3)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              ./MKUART/mkuart.o (itoa)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              ./LCD/lcd44780.o (ltoa)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                              ./LCD/lcd44780.o (__eerd_byte_m32)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+t                   0x4               ./BMP180/bmp180.o
+p                   0x4               ./BMP180/bmp180.o
+MD                  0x2               ./BMP180/bmp180.o
+AC1                 0x2               ./BMP180/bmp180.o
+AC6                 0x2               ./BMP180/bmp180.o
+UART_TxHead         0x1               ./MKUART/mkuart.o
+up                  0x4               ./BMP180/bmp180.o
+htu21_humid         0x4               ./main.o
+AC5                 0x2               ./BMP180/bmp180.o
+bmp180_temp         0x4               ./main.o
+B5                  0x4               ./BMP180/bmp180.o
+AC4                 0x2               ./BMP180/bmp180.o
+UART_TxTail         0x1               ./MKUART/mkuart.o
+MB                  0x2               ./BMP180/bmp180.o
+AC2                 0x2               ./BMP180/bmp180.o
+AC3                 0x2               ./BMP180/bmp180.o
+B2                  0x2               ./BMP180/bmp180.o
+ut                  0x4               ./BMP180/bmp180.o
+htu21_test          0x3               ./main.o
+bmp180_press        0x4               ./main.o
+UART_TxBuf          0x10              ./MKUART/mkuart.o
+UART_RxHead         0x1               ./MKUART/mkuart.o
+B1                  0x2               ./BMP180/bmp180.o
+UART_RxTail         0x1               ./MKUART/mkuart.o
+MC                  0x2               ./BMP180/bmp180.o
+htu21_h             0x2               ./main.o
+UART_RxBuf          0x20              ./MKUART/mkuart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+LOAD ./TERM_VT100/term_vt100.o
+LOAD ./MKUART/mkuart.o
+LOAD ./LCD/lcd44780.o
+LOAD ./I2C_TWI/i2c_twi.o
+LOAD ./HTU21/htu21.o
+LOAD ./BMP180/bmp180.o
+LOAD ./main.o
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x138a
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data.U_ATTR_OFF
+                0x00000054        0x4 ./TERM_VT100/term_vt100.o
+                0x00000054                U_ATTR_OFF
+ .progmem.data.UCUR_SHOW
+                0x00000058        0x7 ./TERM_VT100/term_vt100.o
+                0x00000058                UCUR_SHOW
+ .progmem.data.UCUR_HIDE
+                0x0000005f        0x7 ./TERM_VT100/term_vt100.o
+                0x0000005f                UCUR_HIDE
+ .progmem.data.UHOME
+                0x00000066        0x5 ./TERM_VT100/term_vt100.o
+                0x00000066                UHOME
+ .progmem.data.UCLS
+                0x0000006b        0x5 ./TERM_VT100/term_vt100.o
+                0x0000006b                UCLS
+ .progmem.data.degree
+                0x00000070        0x8 ./main.o
+                0x00000070                degree
+                0x00000078                . = ALIGN (0x2)
+                0x00000078                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000078        0x0 linker stubs
+ *(.trampolines*)
+                0x00000078                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000078                __ctors_start = .
+ *(.ctors)
+                0x00000078                __ctors_end = .
+                0x00000078                __dtors_start = .
+ *(.dtors)
+                0x00000078                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000078        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000078                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000078        0xc c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000084       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                0x00000084                __do_copy_data
+ .init4         0x0000009a       0x10 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000009a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000aa        0x8 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x000000b2        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+                0x000000b2                __vector_1
+                0x000000b2                __vector_12
+                0x000000b2                __bad_interrupt
+                0x000000b2                __vector_6
+                0x000000b2                __vector_3
+                0x000000b2                __vector_11
+                0x000000b2                __vector_17
+                0x000000b2                __vector_19
+                0x000000b2                __vector_7
+                0x000000b2                __vector_5
+                0x000000b2                __vector_4
+                0x000000b2                __vector_9
+                0x000000b2                __vector_2
+                0x000000b2                __vector_8
+                0x000000b2                __vector_10
+                0x000000b2                __vector_16
+                0x000000b2                __vector_18
+                0x000000b2                __vector_20
+ .text          0x000000b6        0x0 ./TERM_VT100/term_vt100.o
+ .text          0x000000b6        0x0 ./MKUART/mkuart.o
+ .text          0x000000b6        0x0 ./LCD/lcd44780.o
+ .text          0x000000b6        0x0 ./I2C_TWI/i2c_twi.o
+ .text          0x000000b6        0x0 ./HTU21/htu21.o
+ .text          0x000000b6        0x0 ./BMP180/bmp180.o
+ .text          0x000000b6        0x0 ./main.o
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .text          0x000000b6        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x000000b6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.tr_cursor_show
+                0x000000b6       0x12 ./TERM_VT100/term_vt100.o
+                0x000000b6                tr_cursor_show
+ .text.tr_cls   0x000000c8       0x24 ./TERM_VT100/term_vt100.o
+                0x000000c8                tr_cls
+ .text.fill_line
+                0x000000ec       0x30 ./TERM_VT100/term_vt100.o
+                0x000000ec                fill_line
+ .text.tr_attr  0x0000011c       0x62 ./TERM_VT100/term_vt100.o
+                0x0000011c                tr_attr
+ .text.tr_pen_color
+                0x0000017e       0x26 ./TERM_VT100/term_vt100.o
+                0x0000017e                tr_pen_color
+ .text.tr_brush_color
+                0x000001a4       0x26 ./TERM_VT100/term_vt100.o
+                0x000001a4                tr_brush_color
+ .text.tr_locate
+                0x000001ca       0x3c ./TERM_VT100/term_vt100.o
+                0x000001ca                tr_locate
+ .text.tr_create_win
+                0x00000206       0x6a ./TERM_VT100/term_vt100.o
+                0x00000206                tr_create_win
+ .text.USART_Init
+                0x00000270       0x18 ./MKUART/mkuart.o
+                0x00000270                USART_Init
+ .text.__vector_15
+                0x00000288       0x16 ./MKUART/mkuart.o
+                0x00000288                __vector_15
+ .text.uart_putc
+                0x0000029e       0x22 ./MKUART/mkuart.o
+                0x0000029e                uart_putc
+ .text.uart_puts
+                0x000002c0       0x18 ./MKUART/mkuart.o
+                0x000002c0                uart_puts
+ .text.uart_puts_P
+                0x000002d8       0x1c ./MKUART/mkuart.o
+                0x000002d8                uart_puts_P
+ .text.uart_putint
+                0x000002f4       0x3a ./MKUART/mkuart.o
+                0x000002f4                uart_putint
+ .text.uart_putlong
+                0x0000032e       0x3a ./MKUART/mkuart.o
+                0x0000032e                uart_putlong
+ .text.__vector_14
+                0x00000368       0x4e ./MKUART/mkuart.o
+                0x00000368                __vector_14
+ .text.uart_getc
+                0x000003b6       0x2a ./MKUART/mkuart.o
+                0x000003b6                uart_getc
+ .text.__vector_13
+                0x000003e0       0x42 ./MKUART/mkuart.o
+                0x000003e0                __vector_13
+ .text.data_dir_out
+                0x00000422        0xa ./LCD/lcd44780.o
+ .text.lcd_readHalf
+                0x0000042c       0x16 ./LCD/lcd44780.o
+ .text.lcd_sendHalf
+                0x00000442       0x2a ./LCD/lcd44780.o
+ .text._lcd_read_byte
+                0x0000046c       0x28 ./LCD/lcd44780.o
+                0x0000046c                _lcd_read_byte
+ .text.check_BF
+                0x00000494        0x6 ./LCD/lcd44780.o
+                0x00000494                check_BF
+ .text._lcd_write_byte
+                0x0000049a       0x2e ./LCD/lcd44780.o
+                0x0000049a                _lcd_write_byte
+ .text.lcd_write_cmd
+                0x000004c8        0x6 ./LCD/lcd44780.o
+                0x000004c8                lcd_write_cmd
+ .text.lcd_write_data
+                0x000004ce        0x6 ./LCD/lcd44780.o
+                0x000004ce                lcd_write_data
+ .text.lcd_char
+                0x000004d4        0xe ./LCD/lcd44780.o
+                0x000004d4                lcd_char
+ .text.lcd_str  0x000004e2       0x18 ./LCD/lcd44780.o
+                0x000004e2                lcd_str
+ .text.lcd_str_P
+                0x000004fa       0x1c ./LCD/lcd44780.o
+                0x000004fa                lcd_str_P
+ .text.lcd_str_E
+                0x00000516       0x22 ./LCD/lcd44780.o
+                0x00000516                lcd_str_E
+ .text.lcd_int  0x00000538       0x38 ./LCD/lcd44780.o
+                0x00000538                lcd_int
+ .text.lcd_hex  0x00000570       0x38 ./LCD/lcd44780.o
+                0x00000570                lcd_hex
+ .text.lcd_defchar
+                0x000005a8       0x34 ./LCD/lcd44780.o
+                0x000005a8                lcd_defchar
+ .text.lcd_defchar_P
+                0x000005dc       0x38 ./LCD/lcd44780.o
+                0x000005dc                lcd_defchar_P
+ .text.lcd_defchar_E
+                0x00000614       0x4a ./LCD/lcd44780.o
+                0x00000614                lcd_defchar_E
+ .text.lcd_locate
+                0x0000065e        0xe ./LCD/lcd44780.o
+                0x0000065e                lcd_locate
+ .text.lcd_cls  0x0000066c        0x6 ./LCD/lcd44780.o
+                0x0000066c                lcd_cls
+ .text.lcd_init
+                0x00000672       0x92 ./LCD/lcd44780.o
+                0x00000672                lcd_init
+ .text.i2cSetBitrate
+                0x00000704       0x26 ./I2C_TWI/i2c_twi.o
+                0x00000704                i2cSetBitrate
+ .text.TWI_start
+                0x0000072a        0xc ./I2C_TWI/i2c_twi.o
+                0x0000072a                TWI_start
+ .text.TWI_stop
+                0x00000736        0xc ./I2C_TWI/i2c_twi.o
+                0x00000736                TWI_stop
+ .text.TWI_write
+                0x00000742        0xe ./I2C_TWI/i2c_twi.o
+                0x00000742                TWI_write
+ .text.TWI_read
+                0x00000750       0x18 ./I2C_TWI/i2c_twi.o
+                0x00000750                TWI_read
+ .text.TWI_write_buf
+                0x00000768       0x5e ./I2C_TWI/i2c_twi.o
+                0x00000768                TWI_write_buf
+ .text.TWI_read_buf
+                0x000007c6       0x62 ./I2C_TWI/i2c_twi.o
+                0x000007c6                TWI_read_buf
+ .text.HTU21_init
+                0x00000828       0x14 ./HTU21/htu21.o
+                0x00000828                HTU21_init
+ .text.HTU21_read_temp
+                0x0000083c       0x58 ./HTU21/htu21.o
+                0x0000083c                HTU21_read_temp
+ .text.HTU21_read_humid
+                0x00000894       0x58 ./HTU21/htu21.o
+                0x00000894                HTU21_read_humid
+ .text.BMP180_init
+                0x000008ec       0xe6 ./BMP180/bmp180.o
+                0x000008ec                BMP180_init
+ .text.BMP180_getut
+                0x000009d2       0x6c ./BMP180/bmp180.o
+                0x000009d2                BMP180_getut
+ .text.BMP180_getup
+                0x00000a3e       0x86 ./BMP180/bmp180.o
+                0x00000a3e                BMP180_getup
+ .text.BMP180_gett
+                0x00000ac4       0xcc ./BMP180/bmp180.o
+                0x00000ac4                BMP180_gett
+ .text.BMP180_getp
+                0x00000b90      0x252 ./BMP180/bmp180.o
+                0x00000b90                BMP180_getp
+ .text.ShowOnLCD
+                0x00000de2      0x136 ./main.o
+                0x00000de2                ShowOnLCD
+ .text.SendToUart
+                0x00000f18      0x1cc ./main.o
+                0x00000f18                SendToUart
+ .text.startup.main
+                0x000010e4       0xc6 ./main.o
+                0x000010e4                main
+ .text.libgcc.mul
+                0x000011aa       0x20 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+                0x000011aa                __mulsi3
+ .text.libgcc.div
+                0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x000011ca        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x000011ca       0x28 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000011ca                __udivmodhi4
+ .text.libgcc   0x000011f2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x000011f2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x000011f2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x000011f2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x000011f2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x000011f2       0x44 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000011f2                __udivmodsi4
+ .text.libgcc   0x00001236        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00001236        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00001236        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00001236        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00001236        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00001236       0x38 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+                0x00001236                __divmodsi4
+ .text.libgcc   0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000126e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000126e       0x18 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+                0x0000126e                __umulhisi3
+ .text.libgcc.div
+                0x00001286        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00001286        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00001286        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00001286        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00001286        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00001286       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+                0x00001286                __muluhisi3
+ .text.libgcc.div
+                0x0000129c        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000129c        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000129c        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000129c        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000129c        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000129c       0x10 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+                0x0000129c                __mulshisi3
+                0x000012a2                __mulohisi3
+ .text.libgcc.div
+                0x000012ac        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x000012ac        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x000012ac        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x000012ac        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x000012ac        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .text.avr-libc
+                0x000012ac       0x42 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x000012ac                itoa
+ .text.avr-libc
+                0x000012ee       0x68 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x000012ee                ltoa
+ .text.avr-libc
+                0x00001356       0x10 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                0x00001356                __eerd_byte_m32
+ .text.avr-libc
+                0x00001366       0x20 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00001366                strrev
+                0x00001386                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001386        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                0x00001386                _exit
+                0x00001386                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001386        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000138a                _etext = .
+
+.data           0x00800060       0x8e load address 0x0000138a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./TERM_VT100/term_vt100.o
+ .data          0x00800060        0x0 ./MKUART/mkuart.o
+ .data          0x00800060        0x0 ./LCD/lcd44780.o
+ .data          0x00800060        0x0 ./I2C_TWI/i2c_twi.o
+ .data          0x00800060        0x0 ./HTU21/htu21.o
+ .data          0x00800060        0x0 ./BMP180/bmp180.o
+ .data          0x00800060        0x0 ./main.o
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000        0x0 ./TERM_VT100/term_vt100.o
+                                  0x3 (size before relaxing)
+ .rodata.str1.1
+                0x00800060       0x8d ./main.o
+ *(.gnu.linkonce.d*)
+                0x008000ee                . = ALIGN (0x2)
+ *fill*         0x008000ed        0x1 
+                0x008000ee                _edata = .
+                0x008000ee                PROVIDE (__data_end, .)
+
+.bss            0x008000ee       0x6f
+                0x008000ee                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008000ee        0x0 ./TERM_VT100/term_vt100.o
+ .bss           0x008000ee        0x0 ./MKUART/mkuart.o
+ .bss           0x008000ee        0x0 ./LCD/lcd44780.o
+ .bss           0x008000ee        0x0 ./I2C_TWI/i2c_twi.o
+ .bss           0x008000ee        0x0 ./HTU21/htu21.o
+ .bss           0x008000ee        0x0 ./BMP180/bmp180.o
+ .bss           0x008000ee        0x0 ./main.o
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_mulshisi3.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .bss           0x008000ee        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008000ee       0x34 ./MKUART/mkuart.o
+                0x008000ee                UART_TxHead
+                0x008000ef                UART_TxTail
+                0x008000f0                UART_TxBuf
+                0x00800100                UART_RxHead
+                0x00800101                UART_RxTail
+                0x00800102                UART_RxBuf
+ COMMON         0x00800122       0x2a ./BMP180/bmp180.o
+                0x00800122                t
+                0x00800126                p
+                0x0080012a                MD
+                0x0080012c                AC1
+                0x0080012e                AC6
+                0x00800130                up
+                0x00800134                AC5
+                0x00800136                B5
+                0x0080013a                AC4
+                0x0080013c                MB
+                0x0080013e                AC2
+                0x00800140                AC3
+                0x00800142                B2
+                0x00800144                ut
+                0x00800148                B1
+                0x0080014a                MC
+ COMMON         0x0080014c       0x11 ./main.o
+                0x0080014c                htu21_humid
+                0x00800150                bmp180_temp
+                0x00800154                htu21_test
+                0x00800157                bmp180_press
+                0x0080015b                htu21_h
+                0x0080015d                PROVIDE (__bss_end, .)
+                0x0000138a                __data_load_start = LOADADDR (.data)
+                0x00001418                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080015d        0x0
+                0x0080015d                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080015d                PROVIDE (__noinit_end, .)
+                0x0080015d                _end = .
+                0x0080015d                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0xc78
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+ .stab          0x000006cc      0x1b0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                                0x1bc (size before relaxing)
+ .stab          0x0000087c      0x294 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                0x2a0 (size before relaxing)
+ .stab          0x00000b10       0x90 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                                 0x9c (size before relaxing)
+ .stab          0x00000ba0       0xd8 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                 0xe4 (size before relaxing)
+
+.stabstr        0x00000000      0x270
+ *(.stabstr)
+ .stabstr       0x00000000      0x270 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm32.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f ./TERM_VT100/term_vt100.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 ./MKUART/mkuart.o
+ .comment       0x00000000       0x30 ./LCD/lcd44780.o
+ .comment       0x00000000       0x30 ./I2C_TWI/i2c_twi.o
+ .comment       0x00000000       0x30 ./HTU21/htu21.o
+ .comment       0x00000000       0x30 ./BMP180/bmp180.o
+ .comment       0x00000000       0x30 ./main.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(30_METEO_main_station.elf elf32-avr)
+LOAD linker stubs

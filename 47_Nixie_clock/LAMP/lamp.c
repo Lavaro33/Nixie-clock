@@ -117,32 +117,10 @@ ISR(TIMER0_COMP_vect) {
 	if (cnt == 1)
 		disp_null();	//zapalona czwarta cyfra
 
-//	//zapisanie stanu licznika cyfr do portu
-//	ANODE_PORT = ~((ANODE_PORT & 0x0F) | (~cnt & 0xF0));// anody zapalamy stanem wysokim
 	//cykliczne przelaczanie
 	cnt >>= 1;
 	if (cnt < 1)
 		cnt = 128;
 }
 
-// ------------------KOPIA ZAPASOWA - NIE RUSZAC!!!-------------------------
-//ISR(TIMER0_COMP_vect) {
-//	static uint8_t cnt = 128;		// zmienna do przelaczania kolejnych cyfr
-//
-//	if (cnt == 128)
-//		disp(digit1);	//zapalona pierwsza cyfra
-//	if (cnt == 64)
-//		disp(digit2);	//zapalona druga cyfra
-//	if (cnt == 32)
-//		disp_null();	//zapalona trzecia cyfra
-//	if (cnt == 16)
-//		disp(digit4);	//zapalona czwarta cyfra
-//
-//	//zapisanie stanu licznika cyfr do portu
-//	ANODE_PORT = ~((ANODE_PORT & 0x0F) | (~cnt & 0xF0));	// anody zapalamy stanem wysokim
-//	//cykliczne przelaczanie
-//	cnt >>= 1;
-//	if (cnt < 16)
-//		cnt = 128;
-//}
 

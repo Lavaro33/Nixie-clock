@@ -31,7 +31,6 @@ int main(void) {
 //		bufor[3] = dec2bcd(19);	// godziny
 //		// zapis 4 bajtów z bufora pod adres 0x01 w pamiêci RAM naszego RTC
 //		TWI_write_buf( PCF8583_ADDR, 0x01, 4, bufor );
-	// cos tamttasdasht
 	while (1) {
 		digit1 = (godz > 9)? godz/10 : 0;
 		digit2 = godz%10;

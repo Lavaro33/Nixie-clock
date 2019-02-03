@@ -97,25 +97,25 @@ ISR(TIMER0_COMP_vect) {
 		ANODE_PORT = (ANODE_PORT & 0X0F) | 0X80;
 	}
 	if (cnt == 64)
-		disp_null();	//zapalona druga cyfra
+		disp_null();	// wygaszone wszystkie lampy
 	if (cnt == 32) {
-		disp(digit2);	//zapalona trzecia cyfra
+		disp(digit2);	//zapalona druga cyfra
 		ANODE_PORT = (ANODE_PORT & 0X0F) | 0X40;
 	}
 	if (cnt == 16)
-		disp_null();	//zapalona czwarta cyfra
+		disp_null();	//wygaszone wszystkie lampy
 	if (cnt == 8) {
-		disp(digit3);	//zapalona pierwsza cyfra
+		disp(digit3);	//zapalona trzecia cyfra
 		ANODE_PORT = (ANODE_PORT & 0X0F) | 0X20;
 	}
 	if (cnt == 4)
-		disp_null();	//zapalona druga cyfra
+		disp_null();	//wygaszone wszystkie lampy
 	if (cnt == 2) {
-		disp(digit4);	//zapalona trzecia cyfra
+		disp(digit4);	//zapalona czwarta cyfra
 		ANODE_PORT = (ANODE_PORT & 0X0F) | 0X10;
 	}
 	if (cnt == 1)
-		disp_null();	//zapalona czwarta cyfra
+		disp_null();	//wygaszone wszystkie lampy
 
 	//cykliczne przelaczanie
 	cnt >>= 1;
